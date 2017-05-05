@@ -16,8 +16,11 @@ function slideDown() {
   $("div").slideDown("more-recipes");
 }
 function hide() {
-  $("button").click("more-recipes")
+  $("button").click("more-recipes");
   $("div").hide("more-recipes");
+}
+function click() {
+  $("button").click("button");
 }
 </script>
 <body>
@@ -41,6 +44,9 @@ function hide() {
       <p>Layers of dark chocolate ganache and white chocolate cream help put this cake over the top.</p>
       <h3><a target=_"blank" href=http://www.epicurious.com/recipes/food/views/cinnamon-bun-bundt-cake-51196640>Cinnamon Bun Bundt Cake</a></h3>
       <p>Of course, any leftovers of this cake are a welcome treat at breakfast the next morning.</p>
+      <div class="button">
+      <p>More recipes</p>
+      </div>
       <div id="more-recipes" style="display:none;">
   <h3><a href="http://www.epicurious.com/recipes/food/views/cranberry-spice-cake-368253">Cranberry Spice Cake</a></h3>
   <p>An easy lemon glaze adds an extra layer of brightness to this seasonal cake.</p>
