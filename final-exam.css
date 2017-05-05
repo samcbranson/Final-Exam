@@ -17,3 +17,28 @@ body{
   width: 30%;
   float: right;
 }
+a {
+    color: red;
+}
+h3{
+  text-transform: lowercase;
+  padding-bottom: 2px;
+  font: Georgia;
+}
+h2{
+  padding-top: 0px;
+  font-size: 24px;
+  font-style: italic;
+  font: Georgia;
+}
+h1{
+  font: Georgia;
+}
+.epicurious{
+  border-bottom: solid;
+  border-color: #E8E8E8;
+  padding-bottom: 20px;
+}
+.img.one{
+  padding-top: 35px;
+}
